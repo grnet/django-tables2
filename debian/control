@@ -1,0 +1,19 @@
+Source: django-tables2
+Section: python
+Priority: optional
+Maintainer: Kostas Papadimitriou <kpap@grnet.gr>
+Build-Depends: debhelper (>= 8), python-all (>= 2.5), snf-common
+Standards-Version: 3.9.2
+XS-Python-Version: >= 2.6
+Homepage: http://pypi.python.org/pypi/django-tables2
+Vcs-Git: git://github.com/vinilios/django-tables2.git
+Vcs-Browser: https://github.com/vinilios/django-tables2
+
+Package: python-django-tables2
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Provides: ${python:Provides}
+XB-Python-Version: ${python:Versions}
+Description: django-tables2 simplifies the task of turning sets of data into 
+             HTML tables. It has native support for pagination and sorting.
+
